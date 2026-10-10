@@ -6,7 +6,8 @@
 
   <p>
     <a href="https://fuvty.github.io/thinking_yard_project_page/projects/tokenrouter/">🌐 <b>Project Page</b></a> •
-    <a href="https://arxiv.org/abs/2610.12242">📑 <b>Paper</b></a>
+    <a href="https://arxiv.org/abs/2610.12242">📑 <b>Paper</b></a> •
+    <a href="https://huggingface.co/papers/2610.12242">🤗 <b>HuggingFace</b></a>
   </p>
 </div>
 
