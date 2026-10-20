@@ -63,7 +63,7 @@ class CITERSLMScheduler(BaseTokenRoutingScheduler):
             :, None, :
         ]  # batch_size, 1, hidden_size
 
-        return self.citer_router(hidden_states).cpu()
+        return self.citer_router(hidden_states).reshape(batch_size).cpu()
 
     def send(self, req: Req, destination: Optional[str] = None) -> PeerReq:
         destination = destination or self.peer_name
